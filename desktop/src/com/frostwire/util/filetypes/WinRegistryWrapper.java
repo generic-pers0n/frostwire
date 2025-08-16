@@ -65,7 +65,7 @@ class WinRegistryWrapper {
 
     static {
         try {
-            if (OSUtils.isWindows() && OSUtils.isGoodWindows()) {
+            if (OSUtils.isWindows()) {
                 System.loadLibrary("SystemUtilities");
             }
         } catch (Throwable t) {
