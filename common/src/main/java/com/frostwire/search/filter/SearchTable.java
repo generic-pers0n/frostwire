@@ -93,6 +93,6 @@ public final class SearchTable {
      * @param sr
      */
     public void add(SearchResult sr) {
-        add(Arrays.asList(sr));
+        add(Collections.singletonList(sr));
     }
 }
