@@ -21,7 +21,6 @@ import com.frostwire.search.torrent.SimpleTorrentSearchPerformer;
 import com.frostwire.util.Logger;
 import com.frostwire.util.UrlUtils;
 import com.frostwire.util.StringUtils;
-import com.google.gson.Gson;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
