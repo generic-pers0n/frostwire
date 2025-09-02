@@ -913,7 +913,7 @@ public final class BTDownloadMediator extends AbstractTableMediator<BTDownloadRo
      *
      * @author gubatron
      */
-    private class TransfersFilter implements TableLineFilter<BTDownloadDataLine> {
+    private static class TransfersFilter implements TableLineFilter<BTDownloadDataLine> {
         private TransfersTab.FilterMode mode = TransfersTab.FilterMode.ALL;
         private String searchKeywords;
 

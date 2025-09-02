@@ -68,7 +68,7 @@ final class OptionsButtonPanel {
      * Listener for the revert to default option.
      * Reverts all options to their factory defaults.
      */
-    private class RevertListener implements ActionListener {
+    private static class RevertListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
             OptionsMediator.instance().revertOptions();
             OptionsMediator.instance().setOptionsVisible(false);
@@ -79,7 +79,7 @@ final class OptionsButtonPanel {
      * The listener for the ok button.  Applies the current options and
      * makes the window not visible.
      */
-    private class OKListener implements ActionListener {
+    private static class OKListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
             // close the window only if the new settings
             // work correctly, as the user may need to
@@ -97,7 +97,7 @@ final class OptionsButtonPanel {
     /**
      * The listener for the cancel button.
      */
-    private class CancelListener implements ActionListener {
+    private static class CancelListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
             OptionsMediator.instance().setOptionsVisible(false);
         }
@@ -106,7 +106,7 @@ final class OptionsButtonPanel {
     /**
      * The listener for the apply button.  Applies the current settings.
      */
-    private class ApplyListener implements ActionListener {
+    private static class ApplyListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
             try {
                 OptionsMediator.instance().applyOptions();

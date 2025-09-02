@@ -71,7 +71,7 @@ public final class TransferDetailPeers extends JPanel implements TransferDetailC
         }
     }
 
-    public class PeerItemHolder {
+    public static class PeerItemHolder {
         final int peerOffset;
         final PeerInfo peerItem;
 

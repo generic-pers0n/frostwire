@@ -66,7 +66,7 @@ final class SearchTabbedPane extends JTabbedPane {
         setSelectedIndex(newIndex);
     }
 
-    private final class SearchTabHeader extends JPanel {
+    private static final class SearchTabHeader extends JPanel {
         private final Component component;
         private final JLabel labelText;
 

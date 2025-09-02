@@ -298,7 +298,7 @@ public final class iTunesMediator {
     /**
      * Executes the osascript CLI command
      */
-    private class ExecOSAScriptCommand implements Runnable {
+    private static class ExecOSAScriptCommand implements Runnable {
         private final String playlist;
         /**
          * The file to add.
@@ -333,7 +333,7 @@ public final class iTunesMediator {
         }
     }
 
-    private class ExecWSHScriptCommand implements Runnable {
+    private static class ExecWSHScriptCommand implements Runnable {
         private final String playlist;
         /**
          * The file to add.

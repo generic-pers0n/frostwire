@@ -55,7 +55,7 @@ class DonationButtons extends JPanel {
         return donateLabel;
     }
 
-    private class DonationButton extends JButton {
+    private static class DonationButton extends JButton {
         DonationButton(String text, String donationURL, String tipText) {
             initComponent(text, donationURL, tipText);
         }

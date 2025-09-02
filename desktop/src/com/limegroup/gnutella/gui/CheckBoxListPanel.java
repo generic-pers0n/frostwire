@@ -63,7 +63,7 @@ public class CheckBoxListPanel<E> extends BoxPanel {
     /**
      * Inherit from JScrollPane just to override updateUI.
      */
-    private class InternalJScrollPane extends JScrollPane {
+    private static class InternalJScrollPane extends JScrollPane {
         /**
          *
          */

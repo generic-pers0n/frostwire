@@ -50,7 +50,7 @@ public class IPFilterTableMediator extends AbstractTableMediator<IPFilterTableMe
     @Override
     protected void setupConstants() {
         MAIN_PANEL = new PaddedPanel();
-        DATA_MODEL = new IPFilterTableMediator.IPFilterModel();
+        DATA_MODEL = new IPFilterModel();
         TABLE = new LimeJTable(DATA_MODEL);
         TABLE.setAutoResizeMode(JTable.AUTO_RESIZE_SUBSEQUENT_COLUMNS);
     }
@@ -113,7 +113,7 @@ public class IPFilterTableMediator extends AbstractTableMediator<IPFilterTableMe
         }
     }
 
-    class IPFilterModel extends BasicDataLineModel<IPFilterDataLine, IPRange> {
+    static class IPFilterModel extends BasicDataLineModel<IPFilterDataLine, IPRange> {
         IPFilterModel() {
             super(IPFilterDataLine.class);
         }

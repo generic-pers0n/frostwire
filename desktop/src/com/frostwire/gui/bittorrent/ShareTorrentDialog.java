@@ -313,7 +313,7 @@ public class ShareTorrentDialog extends JDialog {
         }
     }
 
-    private class GoogleURLShortenerResponse {
+    private static class GoogleURLShortenerResponse {
         String id;
     }
 

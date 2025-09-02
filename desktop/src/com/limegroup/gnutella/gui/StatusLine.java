@@ -742,7 +742,7 @@ public final class StatusLine implements VPNStatusRefresher.VPNStatusListener {
         }
     }
 
-    private class SettingsButtonAction extends AbstractAction {
+    private static class SettingsButtonAction extends AbstractAction {
         SettingsButtonAction() {
             putValue(Action.NAME, I18n.tr("Settings"));
             putValue(Action.NAME, I18n.tr("Settings"));
@@ -758,7 +758,7 @@ public final class StatusLine implements VPNStatusRefresher.VPNStatusListener {
         }
     }
 
-    private class LazyTooltip extends JLabel {
+    private static class LazyTooltip extends JLabel {
         LazyTooltip(ImageIcon icon) {
             super(icon);
             setOpaque(false);

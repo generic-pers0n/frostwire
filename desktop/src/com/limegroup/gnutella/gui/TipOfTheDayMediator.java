@@ -296,7 +296,7 @@ public final class TipOfTheDayMediator {
     /**
      * A listener for changing the state of the 'Show Tips on Startup'.
      */
-    private class ShowTipListener implements ActionListener {
+    private static class ShowTipListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
             JCheckBox source = (JCheckBox) e.getSource();
             StartupSettings.SHOW_TOTD.setValue(source.isSelected());

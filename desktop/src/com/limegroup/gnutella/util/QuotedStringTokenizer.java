@@ -101,7 +101,7 @@ public class QuotedStringTokenizer {
         return new Token(token.toString(), i);
     }
 
-    private class Token {
+    private static class Token {
         final String text;
         final int nextIndex;
         Token(String text, int nextIndex) {

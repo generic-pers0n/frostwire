@@ -321,7 +321,7 @@ public class OkHttpClientWrapper extends AbstractHttpClient {
     /**
      * This interceptor compresses the HTTP request body. Many web servers can't handle this!
      */
-    class GzipRequestInterceptor implements Interceptor {
+    static class GzipRequestInterceptor implements Interceptor {
         @Override
         public Response intercept(Chain chain) throws IOException {
             Request originalRequest = chain.request();

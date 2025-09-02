@@ -171,7 +171,7 @@ public class LanguageWindow extends JDialog {
         }
     }
 
-    private class CancelAction extends AbstractAction {
+    private static class CancelAction extends AbstractAction {
         CancelAction() {
         }
 

@@ -344,7 +344,7 @@ public class WinAppAssociationWriter implements AppAssociationWriter {
     /**
      * Inline class for restoreing association registration/unregistration failure.
      */
-    class BackupAssociation {
+    static class BackupAssociation {
         // Mime type retrieved from the specified association object.
         private final String curMimeType;
         // File extension retrieved from the specified association object.

@@ -190,7 +190,7 @@ public class FileTreeModel extends AbstractTreeModel {
         }
     }
 
-    private class DefaultFilter implements FileFilter {
+    private static class DefaultFilter implements FileFilter {
         public boolean accept(File file) {
             return file.isDirectory() && !file.isHidden();
         }

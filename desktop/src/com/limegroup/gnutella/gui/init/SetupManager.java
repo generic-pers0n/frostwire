@@ -341,7 +341,7 @@ public final class SetupManager {
         NO, NEEDS
     }
 
-    private abstract class LanguageAwareAction extends AbstractAction {
+    private abstract static class LanguageAwareAction extends AbstractAction {
         private final String nameKey;
 
         LanguageAwareAction(String nameKey) {
