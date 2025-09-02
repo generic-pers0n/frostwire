@@ -110,14 +110,14 @@ public class QueryUtils {
             //one small problem - if every keyword in the filename is
             //greater than MAX_LEN, then the string returned will be empty.
             //if this happens just truncate the first keyword....
-            if (retString.equals("")) {
+            if (retString.isEmpty()) {
                 retString = StringUtils.truncate(keywords.iterator().next(), maxLen);
             }
         }
         // Added a bunch of asserts to catch bugs.  There is some form of
         // input we are not considering in our algorithms....
         assert retString.length() <= maxLen : "Original filename: " + name + ", converted: " + retString;
-        assert keywords.isEmpty() || !retString.equals("") : "Original filename: " + name;
+        assert keywords.isEmpty() || !retString.isEmpty() : "Original filename: " + name;
         return retString;
     }
 

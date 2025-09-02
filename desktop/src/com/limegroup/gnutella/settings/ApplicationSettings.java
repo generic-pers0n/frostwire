@@ -128,9 +128,9 @@ public class ApplicationSettings extends LimeProps {
         String cc = COUNTRY.getValue();
         String lv = LOCALE_VARIANT.getValue();
         String lang = lc;
-        if (cc != null && !cc.equals(""))
+        if (cc != null && !cc.isEmpty())
             lang += "_" + cc;
-        if (lv != null && !lv.equals(""))
+        if (lv != null && !lv.isEmpty())
             lang += "_" + lv;
         return lang;
     }

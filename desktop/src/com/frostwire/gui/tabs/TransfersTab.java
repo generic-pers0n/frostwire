@@ -194,7 +194,7 @@ public final class TransfersTab extends AbstractTab {
 
     private void onTextFilterKeyTyped() {
         final String text = filterText.getText();
-        if (text.equals("")) {
+        if (text.isEmpty()) {
             restoreFilterTextHint();
         } else {
             filterText.setForeground(Color.BLACK);
@@ -218,7 +218,7 @@ public final class TransfersTab extends AbstractTab {
     }
 
     private void onFilterTextFocusLost() {
-        if (filterText.getText().equals("")) {
+        if (filterText.getText().isEmpty()) {
             restoreFilterTextHint();
         }
     }

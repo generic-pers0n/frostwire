@@ -204,7 +204,7 @@ class PartialFilesDialog extends JDialog {
         filter.addKeyListener(new KeyAdapter() {
             @Override
             public void keyReleased(KeyEvent e) {
-                if (filter.getText() == null || filter.getText().equals("")) {
+                if (filter.getText() == null || filter.getText().isEmpty()) {
                     table.setRowSorter(null);
                     return;
                 }

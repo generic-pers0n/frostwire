@@ -97,7 +97,7 @@ public final class FrostWireUtils {
         } else if (OSUtils.isWindows()) {
             root = SystemUtils.getSpecialPath(SpecialLocations.DOCUMENTS);
         }
-        if (root == null || "".equals(root))
+        if (root == null || root.isEmpty())
             root = CommonUtils.getUserHomeDir().getPath();
         return new File(root, "FrostWire");
     }

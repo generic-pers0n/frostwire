@@ -287,7 +287,7 @@ class WinRegistryWrapper {
                     lpValueName);
             RegCloseKey(openResult[OPENED_KEY_HANDLE]);
             if (valueBytes != null) {
-                if ((valueBytes.length == 1) && (valueBytes[0] == 0) && (valueName.equals(""))) {
+                if ((valueBytes.length == 1) && (valueBytes[0] == 0) && (valueName.isEmpty())) {
                     return null;
                 } else {
                     return byteArrayToString(valueBytes);
@@ -534,7 +534,7 @@ class WinRegistryWrapper {
      * @return ERROR_ITEM_EXIST if the value exists under given sub key
      */
     public static int WinRegValueExist(int hKey, String subKey, String valueName) {
-        if (subKey.trim().equals("")) {
+        if (subKey.trim().isEmpty()) {
             return ERROR_ITEM_NOTEXIST;
         }
         byte[] lpSubKey = stringToByteArray(subKey);
@@ -552,7 +552,7 @@ class WinRegistryWrapper {
             if (valueBytes == null) {
                 return ERROR_ITEM_NOTEXIST;
             } else {
-                if ((valueBytes.length == 1) && (valueBytes[0] == 0) && (valueName.equals(""))) {
+                if ((valueBytes.length == 1) && (valueBytes[0] == 0) && (valueName.isEmpty())) {
                     return ERROR_ITEM_NOTEXIST;
                 } else {
                     return ERROR_ITEM_EXIST;

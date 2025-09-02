@@ -192,7 +192,7 @@ public class ListEditor extends JPanel {
         public void actionPerformed(ActionEvent e) {
             String text = editor.getText();
             //If nothing in editor, ignore
-            if (text.trim().equals(""))
+            if (text.trim().isEmpty())
                 return;
             //If something is selected, replace it.  Notify listeners.
             int i = list.getSelectedIndex();

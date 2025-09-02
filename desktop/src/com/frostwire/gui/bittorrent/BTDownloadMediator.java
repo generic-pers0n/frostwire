@@ -938,7 +938,7 @@ public final class BTDownloadMediator extends AbstractTableMediator<BTDownloadRo
         private boolean matchKeywords(BTDownloadDataLine line, String searchKeywords) {
             // "Steve Jobs" iTune's like search.
             if (searchKeywords == null ||
-                    searchKeywords.equals("") ||
+                    searchKeywords.isEmpty() ||
                     searchKeywords.trim().equals(TransfersTab.FILTER_TEXT_HINT)) {
                 return true;
             }

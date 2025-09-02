@@ -20,7 +20,7 @@ public class PaddedPanel extends JPanel {
                 bottom, right);
         setLayout(layout);
         setBorder(border);
-        if (label != null && !label.equals("")) {
+        if (label != null && !label.isEmpty()) {
             JPanel panel = new JPanel();
             panel.setLayout(new BoxLayout(panel, BoxLayout.X_AXIS));
 			/*

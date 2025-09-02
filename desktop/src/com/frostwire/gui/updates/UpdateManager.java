@@ -188,7 +188,7 @@ public final class UpdateManager implements Serializable {
                 return;
             }
             String authority = uri.getAuthority();
-            if (authority == null || authority.equals("") || authority.indexOf(' ') != -1) {
+            if (authority == null || authority.isEmpty() || authority.indexOf(' ') != -1) {
                 // LOG.error("Invalid authority");
                 return;
             }
@@ -265,8 +265,8 @@ public final class UpdateManager implements Serializable {
         // attempt to show system Update Message if needed
         if (umr.hasUpdateMessage()
                 &&
-                ((updateMessage.getBuild() != null && !updateMessage.getBuild().trim().equals("")) ||
-                        (updateMessage.getVersion() != null && !updateMessage.getVersion().trim().equals("")))
+                ((updateMessage.getBuild() != null && !updateMessage.getBuild().trim().isEmpty()) ||
+                        (updateMessage.getVersion() != null && !updateMessage.getVersion().trim().isEmpty()))
                 && (forceUpdateMessage || UpdateManager.isFrostWireOld(updateMessage))) {
             boolean hasUrl = updateMessage.getUrl() != null;
             boolean hasTorrent = updateMessage.getTorrent() != null;
@@ -305,7 +305,7 @@ public final class UpdateManager implements Serializable {
         final String title = (msg.getMessageType().equals("update")) ? I18n.tr("New FrostWire Update Available") : I18n.tr("FrostWire Team Announcement");
         int optionType = JOptionPane.CANCEL_OPTION;
         // check if there's an URL to link to
-        if (msg.getUrl() != null && !msg.getUrl().trim().equals("")) {
+        if (msg.getUrl() != null && !msg.getUrl().trim().isEmpty()) {
             LOG.info("showUpdateMessage():\t" + msg.getUrl());
             optionType |= JOptionPane.OK_OPTION;
         }
@@ -360,7 +360,7 @@ public final class UpdateManager implements Serializable {
             if (msg.isShownOnce() && haveShownMessageBefore(msg)) {
                 continue;
             }
-            if (msg.getUrl() != null && !msg.getUrl().trim().equals("")) {
+            if (msg.getUrl() != null && !msg.getUrl().trim().isEmpty()) {
                 showUpdateMessage(msg);
             }
         }

@@ -129,7 +129,7 @@ public class GoogleSearchField extends SearchField {
                 }
                 Clipboard systemClipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
                 String s = GUIUtils.extractStringContentFromClipboard(systemClipboard);
-                if (s == null || "".equals(s)) {
+                if (s == null || s.isEmpty()) {
                     return;
                 }
                 if (lastClipboardSearchQuery != null && lastClipboardSearchQuery.equals(s)) {

@@ -92,7 +92,7 @@ public final class ResourceManager {
 
     private static void setLocaleOptions() {
         if (!_localeOptionsSet) {
-            if (ApplicationSettings.LANGUAGE.getValue().equals(""))
+            if (ApplicationSettings.LANGUAGE.getValue().isEmpty())
                 ApplicationSettings.LANGUAGE.setValue("en");
             _locale = new Locale.Builder().setLanguage(ApplicationSettings.LANGUAGE.getValue()).
                     setRegion(ApplicationSettings.COUNTRY.getValue()).

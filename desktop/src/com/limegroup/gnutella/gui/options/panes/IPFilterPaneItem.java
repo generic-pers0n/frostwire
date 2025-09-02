@@ -123,7 +123,7 @@ public class IPFilterPaneItem extends AbstractPaneItem {
     private void onImportButtonAction() {
         enableImportControls(false);
         String filterDataPath = fileUrlTextField.getText().trim();
-        if (null == filterDataPath || "".equals(filterDataPath)) {
+        if (null == filterDataPath || filterDataPath.isEmpty()) {
             enableImportControls(true);
             return;
         }

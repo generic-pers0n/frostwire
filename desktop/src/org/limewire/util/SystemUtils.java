@@ -84,7 +84,7 @@ public class SystemUtils {
         try {
             if (OSUtils.isWindows() && isLoaded) {
                 String path = getRunningPathNative();
-                return (path.equals("")) ? null : path;
+                return (path.isEmpty()) ? null : path;
             }
             return null;
         } catch (Throwable e) {
@@ -113,7 +113,7 @@ public class SystemUtils {
         if (OSUtils.isWindows() && isLoaded) {
             try {
                 String path = getSpecialPathNative(location.getName());
-                if (!path.equals("")) {
+                if (!path.isEmpty()) {
                     return path;
                 }
             } catch (UnsatisfiedLinkError error) {

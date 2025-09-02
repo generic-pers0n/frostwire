@@ -44,7 +44,7 @@ class AppUtility {
      */
     public static String getFileExtensionByURL(URL url) {
         String trimFile = url.getFile().trim();
-        if (trimFile == null || trimFile.equals("") || trimFile.equals("/")) {
+        if (trimFile == null || trimFile.isEmpty() || trimFile.equals("/")) {
             return null;
         }
         int strIndex = trimFile.lastIndexOf("/");

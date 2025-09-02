@@ -147,7 +147,7 @@ public final class UpdateMediator {
     }
 
     public boolean isUpdated() {
-        return latestMsg != null && latestMsg.getVersion() != null && !latestMsg.getVersion().trim().equals("") && !UpdateManager.isFrostWireOld(latestMsg);
+        return latestMsg != null && latestMsg.getVersion() != null && !latestMsg.getVersion().trim().isEmpty() && !UpdateManager.isFrostWireOld(latestMsg);
     }
 
     public String getLatestVersion() {

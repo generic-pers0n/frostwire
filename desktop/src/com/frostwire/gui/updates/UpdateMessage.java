@@ -202,7 +202,7 @@ final class UpdateMessage implements Serializable {
     }
 
     public String getVersion() {
-        if (_version != null && _version.equals("")) {
+        if (_version != null && _version.isEmpty()) {
             _version = null;
         }
         return _version;
@@ -213,7 +213,7 @@ final class UpdateMessage implements Serializable {
     }
 
     public String getBuild() {
-        if (build != null && build.equals("")) {
+        if (build != null && build.isEmpty()) {
             build = null;
         }
         return build;

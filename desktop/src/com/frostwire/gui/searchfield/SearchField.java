@@ -203,7 +203,7 @@ public class SearchField extends JXSearchField {
         String selectedText = getSelectedText();
         if (selectedText == null)
             selectedText = "";
-        boolean stuffSelected = !selectedText.equals("");
+        boolean stuffSelected = !selectedText.isEmpty();
         boolean allSelected = selectedText.equals(getText());
         UNDO_ACTION.setEnabled(isEnabled() && isEditable() && isUndoAvailable());
         CUT_ACTION.setEnabled(isEnabled() && isEditable() && stuffSelected);
@@ -270,7 +270,7 @@ public class SearchField extends JXSearchField {
     }
 
     protected String lookup(String s) {
-        if (dict != null && getAutoComplete() && !s.equals(""))
+        if (dict != null && getAutoComplete() && !s.isEmpty())
             return dict.lookup(s);
         return null;
     }

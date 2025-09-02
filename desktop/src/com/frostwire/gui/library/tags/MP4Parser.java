@@ -276,7 +276,7 @@ class MP4Parser extends AbstractTagParser {
         if (0 <= valueId && valueId < ID3_GENRES.length) {
             value = ID3_GENRES[(int) valueId];
         }
-        if (value == null || value.equals("")) {
+        if (value == null || value.isEmpty()) {
             value = getBoxValue(ilst, Box.Cgen);
         }
         return value;

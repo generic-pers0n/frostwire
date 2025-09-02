@@ -392,7 +392,7 @@ final class BTDownloadMediatorAdvancedMenuFactory {
             String patternStr = "^(https?|udp)://[-a-zA-Z0-9+&@#/%?=~_|!:,.;]*[-a-zA-Z0-9+&@#/%=~_|]";
             Pattern pattern = Pattern.compile(patternStr);
             for (String tracker_url : urls) {
-                if (tracker_url.trim().equals("")) {
+                if (tracker_url.trim().isEmpty()) {
                     continue;
                 }
                 Matcher matcher = pattern.matcher(tracker_url.trim());

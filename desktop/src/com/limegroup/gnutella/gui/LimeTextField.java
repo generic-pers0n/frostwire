@@ -246,7 +246,7 @@ public class LimeTextField extends JTextField {
         String selectedText = getSelectedText();
         if (selectedText == null)
             selectedText = "";
-        boolean stuffSelected = !selectedText.equals("");
+        boolean stuffSelected = !selectedText.isEmpty();
         boolean allSelected = selectedText.equals(getText());
         UNDO_ACTION.setEnabled(isEnabled() && isEditable() && isUndoAvailable());
         CUT_ACTION.setEnabled(isEnabled() && isEditable() && stuffSelected);

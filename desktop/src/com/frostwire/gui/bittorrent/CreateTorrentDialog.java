@@ -459,7 +459,7 @@ public class CreateTorrentDialog extends JDialog {
         String[] tracker_urls = trackersText.split("\n");
         List<String> valid_tracker_urls = new ArrayList<>();
         for (String tracker_url : tracker_urls) {
-            if (tracker_url.trim().equals("")) {
+            if (tracker_url.trim().isEmpty()) {
                 continue;
             }
             // assume http if the user does not specify it
