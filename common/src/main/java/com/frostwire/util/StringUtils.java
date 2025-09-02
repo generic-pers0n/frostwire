@@ -17,7 +17,6 @@ package com.frostwire.util;
 
 import java.io.UnsupportedEncodingException;
 import java.util.*;
-import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**

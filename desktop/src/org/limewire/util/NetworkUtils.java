@@ -16,7 +16,6 @@
 package org.limewire.util;
 
 import com.frostwire.jlibtorrent.Address;
-import com.limegroup.gnutella.settings.ConnectionSettings;
 
 import java.net.InetAddress;
 import java.net.InetSocketAddress;

@@ -1,6 +1,5 @@
 package com.frostwire.mp3;
 
-import java.util.Iterator;
 import java.util.Map;
 import java.util.TreeMap;
 
