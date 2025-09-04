@@ -1,0 +1,289 @@
+[
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/formdev/flatlaf/3.6/flatlaf-3.6.jar",
+    "sha512": "08ac1c8bbe9574212a0d1230778676de5e0d4231380948d94e07e73cc80eea0cebae684df4759d32bc656ebc38cb0f72583e3a51e9927be167738a44963d1cb9",
+    "dest": "./offline-repo/com/formdev/flatlaf/3.6",
+    "dest-filename": "flatlaf-3.6.jar"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/formdev/flatlaf/3.6/flatlaf-3.6.module",
+    "sha512": "375042dcaeef962c5a67b52ce9d8f03dde6c950d306ac79f2874eac0548d52b25249e4b0cc4cac6f6149dbb2c9221f0cac1b3a412e9ac892aa70605b28c2e0b5",
+    "dest": "./offline-repo/com/formdev/flatlaf/3.6",
+    "dest-filename": "flatlaf-3.6.module"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/formdev/flatlaf/3.6/flatlaf-3.6.pom",
+    "sha512": "eaca1a1aeaa53ae5f83afabd30dc55243770ab0658fe700a350dc90f6b3629a85cf14ab4dd41665cb6c3ff74d9ed1074081fb58af9b4d9ef9e2d53712ae1531d",
+    "dest": "./offline-repo/com/formdev/flatlaf/3.6",
+    "dest-filename": "flatlaf-3.6.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/google/code/gson/gson-parent/2.10/gson-parent-2.10.pom",
+    "sha512": "ea6689ba5899ea14c70a1872b42767d8098d47caa98618cac23608f9ae9108e31b403929283b3eb6ed30749585eacaddc1740598d7d7950474d8c55440e17b1f",
+    "dest": "./offline-repo/com/google/code/gson/gson-parent/2.10",
+    "dest-filename": "gson-parent-2.10.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/com/google/code/gson/gson-parent/2.12.1/gson-parent-2.12.1.pom",
+    "sha512": "e099a89999f863e95465baceeba2490fec16032a4eedf0955e3ec230ede9d5e2e6658a3f527a34a651ff3f3121713148e4afd4a03a97f8b0e145f152dae199b7",
+    "dest": "./offline-repo/com/google/code/gson/gson-parent/2.12.1",
+    "dest-filename": "gson-parent-2.12.1.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.10/gson-2.10.jar",
+    "sha512": "40698190ad95798f2cf8af21643cf4e50443117ddc6a7751a8c0217eb4f7b0c374871574df02060e7a2c7827888653ace5365d22f65c956056c85b1d6981c00b",
+    "dest": "./offline-repo/com/google/code/gson/gson/2.10",
+    "dest-filename": "gson-2.10.jar"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.10/gson-2.10.pom",
+    "sha512": "16fe26bdd13d28b16ebc6e40c67749022f2e75ad045e5d9bf97651adb4db4da287cfd2cb903d497d77765f8ac406108510bb1162ebec2fb4e9e4b07f83bfb9c8",
+    "dest": "./offline-repo/com/google/code/gson/gson/2.10",
+    "dest-filename": "gson-2.10.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/com/google/code/gson/gson/2.12.1/gson-2.12.1.jar",
+    "sha512": "fafc369544e2d4a89f32c353dcbd012410a64a315a3cae9165d4ead6f8960aef5f77ced84c374d6a09af117748adca571b0426eb0e2864f584debb59707ebc03",
+    "dest": "./offline-repo/com/google/code/gson/gson/2.12.1",
+    "dest-filename": "gson-2.12.1.jar"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/com/google/code/gson/gson/2.12.1/gson-2.12.1.pom",
+    "sha512": "49aca8b17b4b4377dd358a356aec85d2105b5c8fca2a88fd4f5b5454a7f7e952980e0754e070adfa7136d01b9442c6efacc989c8a25d9928267c9fe3e869c61f",
+    "dest": "./offline-repo/com/google/code/gson/gson/2.12.1",
+    "dest-filename": "gson-2.12.1.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.jar",
+    "sha512": "bd6f5650902526d3db06aa1cc7bd36723658166acfabb823aca27d0b2c3814e83ae24a8217ce915c3e194c2c696a102580b4c21ef5dba61f7610bcb8d580f566",
+    "dest": "./offline-repo/com/google/errorprone/error_prone_annotations/2.36.0",
+    "dest-filename": "error_prone_annotations-2.36.0.jar"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.pom",
+    "sha512": "0c1d663f70a1bec083cdd007b1ee673df144bbfbd4d065c7cad0edba8410bcd1f578902133155a534a1506a82d6a6aa211b4e6c907c4df25b0da4c781caa9008",
+    "dest": "./offline-repo/com/google/errorprone/error_prone_annotations/2.36.0",
+    "dest-filename": "error_prone_annotations-2.36.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/com/google/errorprone/error_prone_parent/2.36.0/error_prone_parent-2.36.0.pom",
+    "sha512": "8157ba706ab6932cb428ebd295693477491a7439341c95994f492a10cc3b3222b30a3777e61a9f208fcd1623fc613a3a7fd3cc22c95c56c64e3dbb9d3ca5aeed",
+    "dest": "./offline-repo/com/google/errorprone/error_prone_parent/2.36.0",
+    "dest-filename": "error_prone_parent-2.36.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/google/re2j/re2j/1.8/re2j-1.8.jar",
+    "sha512": "f556b098dc29ed8fbfa7ecd343b457c49c4deda80dc495ed164297a415328c20d7c89b17cb240f6d2f92607828db52e4f13b66b11277e33e6ebc34a97832da86",
+    "dest": "./offline-repo/com/google/re2j/re2j/1.8",
+    "dest-filename": "re2j-1.8.jar"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/google/re2j/re2j/1.8/re2j-1.8.pom",
+    "sha512": "eb19b42426ed7d7f413707b230a5f2b180c01ea8f070e4436e2ef05a001285b7f1fb386f4c64dd8b4e8489aa11c466685eddd9cf104c9cec5585ab6f081123ba",
+    "dest": "./offline-repo/com/google/re2j/re2j/1.8",
+    "dest-filename": "re2j-1.8.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/googlecode/gettext-commons/gettext-commons/0.9.8/gettext-commons-0.9.8.jar",
+    "sha512": "0fcca28266e566c52aeeb6ad444645e6721cfc723454b78dfda8b7ebc375d36bd5831d4446ddc88615e12ae590435c1548dbab41db632f840d0427ea08a18e2b",
+    "dest": "./offline-repo/com/googlecode/gettext-commons/gettext-commons/0.9.8",
+    "dest-filename": "gettext-commons-0.9.8.jar"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/googlecode/gettext-commons/gettext-commons/0.9.8/gettext-commons-0.9.8.pom",
+    "sha512": "939321424c037e5739a7ccf02ae84be1f98ac41a1eef7bd36cd43ec20fe85a13de3a50d0a04e2321cab47a2f7543638a970e643422da53456c470e50ce0f464d",
+    "dest": "./offline-repo/com/googlecode/gettext-commons/gettext-commons/0.9.8",
+    "dest-filename": "gettext-commons-0.9.8.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp/4.12.0/okhttp-4.12.0.jar",
+    "sha512": "da63f77c1cae377b40f6fd00cfbbe8177e760e4e622ae2c66860fffd3bbbdf605c8e8e415762e9263445b2289ee834100237c63949f2e01c30b6704315dd8f7b",
+    "dest": "./offline-repo/com/squareup/okhttp3/okhttp/4.12.0",
+    "dest-filename": "okhttp-4.12.0.jar"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp/4.12.0/okhttp-4.12.0.module",
+    "sha512": "650297e5804bfbd9878179cfd3e3538bb4e1fc0cc3f9b4690b36853d6c8942b27c429cf67d076c26c4757c22203bd891576d4343760dc0898276ef0b9d3192a0",
+    "dest": "./offline-repo/com/squareup/okhttp3/okhttp/4.12.0",
+    "dest-filename": "okhttp-4.12.0.module"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp/4.12.0/okhttp-4.12.0.pom",
+    "sha512": "bef467d5298848782c944facac82e3f1b043675acfd3b62912a89de3a82778c0d0fe7dc623e4f324a90c5d4b390ed66bb18e2d71739e1dac99acdb9a848449fc",
+    "dest": "./offline-repo/com/squareup/okhttp3/okhttp/4.12.0",
+    "dest-filename": "okhttp-4.12.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/squareup/okio/okio-jvm/3.6.0/okio-jvm-3.6.0.jar",
+    "sha512": "a592e93651fb5e335212bb25c1cf474c1b1076eda68d53cbdc82c383cbdd60114a62b698ca92a3b4b5e416d637a70f2ddabbf8a05551c62d59a240c3e3c3d2c6",
+    "dest": "./offline-repo/com/squareup/okio/okio-jvm/3.6.0",
+    "dest-filename": "okio-jvm-3.6.0.jar"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/squareup/okio/okio-jvm/3.6.0/okio-jvm-3.6.0.module",
+    "sha512": "3c5a57a33fb90618710b298e233ae81cdcdbeed204328e9dc55fe0aaf63eb3fa24e58f4d489f5dde48e2ff716b16e0c47882d8be61bd3bd579b3e23ee3034ce3",
+    "dest": "./offline-repo/com/squareup/okio/okio-jvm/3.6.0",
+    "dest-filename": "okio-jvm-3.6.0.module"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/squareup/okio/okio-jvm/3.6.0/okio-jvm-3.6.0.pom",
+    "sha512": "e723f3262137f7a892a6f6fe277272b0e457b48aa035651b52d9f598d9f98ca285217c74356a90dcf8a34800797fe458f6e1c461dbf69f9c8d8fe4e66dbdfdfb",
+    "dest": "./offline-repo/com/squareup/okio/okio-jvm/3.6.0",
+    "dest-filename": "okio-jvm-3.6.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/squareup/okio/okio/3.6.0/okio-3.6.0.module",
+    "sha512": "2942511ac0f204af6261b9b254adeefc432518e8ad123957875f8ff95c9994c2564a019f3edebc3499a8404700e031d8d95eb8c084bee58c535ff9ccc383f19e",
+    "dest": "./offline-repo/com/squareup/okio/okio/3.6.0",
+    "dest-filename": "okio-3.6.0.module"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/com/squareup/okio/okio/3.6.0/okio-3.6.0.pom",
+    "sha512": "b28fab6b6ec5b72759815673e6ee9e8dfff3e9940a016588e671f4ef4e2f936117c7cef31c38459a5d702b217e57c47f91bea693a9b9072b3422b84515133fe6",
+    "dest": "./offline-repo/com/squareup/okio/okio/3.6.0",
+    "dest-filename": "okio-3.6.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/io/github/jwharm/flatpak-gradle-generator/io.github.jwharm.flatpak-gradle-generator.gradle.plugin/1.5.0/io.github.jwharm.flatpak-gradle-generator.gradle.plugin-1.5.0.pom",
+    "sha512": "d95ab753c7e295958260ad47da3271089e2e81554eb6bb5ae0acbb2b76dcbbfc8f67088a95b4fca917b882f7c6ccffc6e72a5941312b22f83f7402e3f758ae58",
+    "dest": "./offline-repo/io/github/jwharm/flatpak-gradle-generator/io.github.jwharm.flatpak-gradle-generator.gradle.plugin/1.5.0",
+    "dest-filename": "io.github.jwharm.flatpak-gradle-generator.gradle.plugin-1.5.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/io/github/jwharm/flatpak-gradle-generator/plugin/1.5.0/plugin-1.5.0.jar",
+    "sha512": "010a05bdf5a7b0338b921577ce9fbff3f221aff8994926c9c4cd6965cf11047ded07485faeb092b7d2bd6ed1973a7171971940841ba52ea080bb382cffcb1115",
+    "dest": "./offline-repo/io/github/jwharm/flatpak-gradle-generator/plugin/1.5.0",
+    "dest-filename": "plugin-1.5.0.jar"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/io/github/jwharm/flatpak-gradle-generator/plugin/1.5.0/plugin-1.5.0.module",
+    "sha512": "94948fffea8525b0dcaa23099d671a99995a1cef93208a7795d3c6fdc8f68c68420c2f9451211ff112dac15798e22d43f66aeb93fe5e5f4dbf0d5ae1f417ea97",
+    "dest": "./offline-repo/io/github/jwharm/flatpak-gradle-generator/plugin/1.5.0",
+    "dest-filename": "plugin-1.5.0.module"
+  },
+  {
+    "type": "file",
+    "url": "https://plugins.gradle.org/m2/io/github/jwharm/flatpak-gradle-generator/plugin/1.5.0/plugin-1.5.0.pom",
+    "sha512": "b090e4a56bfe11148ffa841c6fdb95a8181105365182f6380b3ec38b09d757897e78e087dd92d05d68c2c91f0aa49ce0d9e166aa6bd0b7b92d71a1a73a9ac494",
+    "dest": "./offline-repo/io/github/jwharm/flatpak-gradle-generator/plugin/1.5.0",
+    "dest-filename": "plugin-1.5.0.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/org/jetbrains/annotations/26.0.1/annotations-26.0.1.jar",
+    "sha512": "c7be38957318874b837d029dc7b2a1f8b009feaa5362a56cba4f4c8a7d502993b3c900ee338eb9c9ee9494d7fd946bd280403eee28b244d213edb0b145a9ebfd",
+    "dest": "./offline-repo/org/jetbrains/annotations/26.0.1",
+    "dest-filename": "annotations-26.0.1.jar"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/org/jetbrains/annotations/26.0.1/annotations-26.0.1.module",
+    "sha512": "b8a4fe90a50b442c7afa2a79f39daead9608abea9fd33f3838db2232df58a6c2907bee97c51c79b7de08878f71e61f9453c69134006263da50498b90867234be",
+    "dest": "./offline-repo/org/jetbrains/annotations/26.0.1",
+    "dest-filename": "annotations-26.0.1.module"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/org/jetbrains/annotations/26.0.1/annotations-26.0.1.pom",
+    "sha512": "056a21eac9f2e61d49ddf9034f96f053f86605e75075e56a0ab4c389e8d10d983b01e2a8f4b61aa8e3b9e538dac1b1039ef4c1a1df112d2f86843c616e1e2f19",
+    "dest": "./offline-repo/org/jetbrains/annotations/26.0.1",
+    "dest-filename": "annotations-26.0.1.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.9.10/kotlin-stdlib-common-1.9.10.jar",
+    "sha512": "e7166112e27edcbc1fb7b918bf66120b35f82311016f944472ebc23c848b81d7016660d5d1a3e7a1679e599c555d796d73c520a0d8178e00b36aa3668415170e",
+    "dest": "./offline-repo/org/jetbrains/kotlin/kotlin-stdlib-common/1.9.10",
+    "dest-filename": "kotlin-stdlib-common-1.9.10.jar"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.9.10/kotlin-stdlib-common-1.9.10.pom",
+    "sha512": "0a382eb25f25bf3d863a727bf6f4a4452c4059226e4ed57ff401b38426a50cfb8befbcb438399f841b0033e4ee54dc5aafb1b19d54a9814c4518df12fb027403",
+    "dest": "./offline-repo/org/jetbrains/kotlin/kotlin-stdlib-common/1.9.10",
+    "dest-filename": "kotlin-stdlib-common-1.9.10.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.9.10/kotlin-stdlib-jdk7-1.9.10.jar",
+    "sha512": "f839178f07b9d6bd9a3910d13b181399e975211fa556c3a9ead08eca30ababa74f75c79aee95224ffb7b610b9e56768eeeba18e8fae84826903adb12e122bb67",
+    "dest": "./offline-repo/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.9.10",
+    "dest-filename": "kotlin-stdlib-jdk7-1.9.10.jar"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.9.10/kotlin-stdlib-jdk7-1.9.10.pom",
+    "sha512": "fdb3c9ce1109cb6f067f0645ffca942982dc7ac66ca92eb5ae22edf9011bc8b5e02ce0e96a5def49945aec45f59f565789dd9c076913f8c8045660dcbcf33a9e",
+    "dest": "./offline-repo/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.9.10",
+    "dest-filename": "kotlin-stdlib-jdk7-1.9.10.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.9.10/kotlin-stdlib-jdk8-1.9.10.jar",
+    "sha512": "b027fc4a0be8e69f41a86ae775ce350ef0084eb4652e50a0640dbcc600db76c3fc2983e17c96b6071b5698cea636e1b2cb015e84a6c0efe95e6db668036ba3cc",
+    "dest": "./offline-repo/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.9.10",
+    "dest-filename": "kotlin-stdlib-jdk8-1.9.10.jar"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.9.10/kotlin-stdlib-jdk8-1.9.10.pom",
+    "sha512": "8cf0741fc581be275cccb34ab1f37ea6f6adfbeb086ec685258d2ddee1d7fdb03695a4da20c6a97e3043886dbf95f36b29db11699069d71c0c7aff9f4f6c740c",
+    "dest": "./offline-repo/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.9.10",
+    "dest-filename": "kotlin-stdlib-jdk8-1.9.10.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.9.10/kotlin-stdlib-1.9.10.jar",
+    "sha512": "6eab000f55dd196a074d1d97df9d285bccace31f0cae8db1846b1c9a55a6ea5e401307a95922a1d758b4152916de47fe36d31551ad0250918e6e07ce710a83a2",
+    "dest": "./offline-repo/org/jetbrains/kotlin/kotlin-stdlib/1.9.10",
+    "dest-filename": "kotlin-stdlib-1.9.10.jar"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.9.10/kotlin-stdlib-1.9.10.pom",
+    "sha512": "d1a76621379d2e075949585be004fded4f37ab3cefbf4bad93bbaaf2dd124ca4c4d1993f8ba37f9990419a6c6b860ead598a91352fdfa8f87db661976597d3a1",
+    "dest": "./offline-repo/org/jetbrains/kotlin/kotlin-stdlib/1.9.10",
+    "dest-filename": "kotlin-stdlib-1.9.10.pom"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/org/xerial/sqlite-jdbc/3.43.0.0/sqlite-jdbc-3.43.0.0.jar",
+    "sha512": "677fae749643b753164695cf7945f6a0b00dca5a9ee14454725031bc196397c969aca6292974f7a620054c82e22f16eeb2e3603fe80f214296d18afee4986a41",
+    "dest": "./offline-repo/org/xerial/sqlite-jdbc/3.43.0.0",
+    "dest-filename": "sqlite-jdbc-3.43.0.0.jar"
+  },
+  {
+    "type": "file",
+    "url": "https://repo.maven.apache.org/maven2/org/xerial/sqlite-jdbc/3.43.0.0/sqlite-jdbc-3.43.0.0.pom",
+    "sha512": "21e0900a0588b1adc95ec967032be6b337b58243770a15327ae64047b96b833833caffffd00687d58c8a11969c8e922c6161841a34078dda183a49c9e6fc7df2",
+    "dest": "./offline-repo/org/xerial/sqlite-jdbc/3.43.0.0",
+    "dest-filename": "sqlite-jdbc-3.43.0.0.pom"
+  }
+]
