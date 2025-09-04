@@ -12,6 +12,7 @@
 plugins {
     id 'java'
     id 'application'
+    id 'io.github.jwharm.flatpak-gradle-generator' version '1.5.0'
 }
 
 group = 'com.frostwire'
@@ -60,6 +61,7 @@ application {
 repositories {
     mavenCentral()
     maven { url = 'https://dl.frostwire.com/maven' }
+    maven { url = 'build/repo' }
 }
 
 dependencies {
@@ -177,6 +179,12 @@ jar {
     manifest {
         attributes 'Main-Class': 'com.limegroup.gnutella.gui.Main'
     }
+}
+
+flatpakGradleGenerator {
+    outputFile = file('flatpak-sources.json')
+    downloadDirectory = 'build/repo'
+    excludeConfigurations = ['testCompileClasspath', 'testRuntimeClasspath']
 }
 
 // gettext tasks
