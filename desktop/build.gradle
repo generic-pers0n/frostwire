@@ -25,7 +25,7 @@ java {
 }
 
 compileJava {
-    options.encoding = '8859_1'
+    options.encoding = 'UTF-8'
     options.fork = true
     options.compilerArgs += ['-Xlint:deprecation']
     options.compilerArgs += ['-Xlint:unchecked']
